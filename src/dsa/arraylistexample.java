@@ -23,6 +23,9 @@ System.out.println(a);
 
 a.add(4,"bhathiya");
 System.out.println(a);
-
+a.remove("malindu");
+System.out.println(a);
+a.remove(3);
+System.out.print(a);
 }  
 }
