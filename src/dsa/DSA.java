@@ -18,8 +18,8 @@ public class DSA {
 //     arraylistexample obj1=new arraylistexample();
 //     obj1.arraylistcreate();
         
-        arraylistsorting obj1=new arraylistsorting();
-        obj1.arraylistsorting();
+       linkedlistexample obj1=new linkedlistexample();
+       obj1.linklist();
     }
     
 }
