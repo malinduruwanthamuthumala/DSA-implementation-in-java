@@ -15,8 +15,11 @@ public class DSA {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     arraylistexample obj1=new arraylistexample();
-     obj1.arraylistcreate();
+//     arraylistexample obj1=new arraylistexample();
+//     obj1.arraylistcreate();
+        
+        arraylistsorting obj1=new arraylistsorting();
+        obj1.arraylistsorting();
     }
     
 }
