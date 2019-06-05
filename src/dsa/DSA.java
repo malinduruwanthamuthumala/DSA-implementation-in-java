@@ -18,8 +18,8 @@ public class DSA {
 //     arraylistexample obj1=new arraylistexample();
 //     obj1.arraylistcreate();
         
-       linkedlistexample obj1=new linkedlistexample();
-       obj1.linklist();
+       queueimplementation obj1=new queueimplementation();
+       obj1.queueim();
     }
     
 }
