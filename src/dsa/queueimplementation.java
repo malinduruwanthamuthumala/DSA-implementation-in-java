@@ -20,5 +20,11 @@ public class queueimplementation{
    q.add("5");
    q.add("6");
     System.out.println("Elements in Queue:"+q);
+     System.out.println("peek(): "+q.peek());
+     System.out.println("poll(): "+q.poll());
+     System.out.println("Head: "+q.element());
+      System.out.println("Elements in Queue:"+q);
+       
+
    }
 }
