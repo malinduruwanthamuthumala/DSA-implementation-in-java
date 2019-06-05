@@ -18,8 +18,21 @@ public class DSA {
 //     arraylistexample obj1=new arraylistexample();
 //     obj1.arraylistcreate();
         
-       queueimplementation obj1=new queueimplementation();
-       obj1.queueim();
+       stackimpl obj1=new stackimpl(10);
+       obj1.push(4);
+       obj1.push(8);
+       obj1.push(22);
+       obj1.push(52);
+       obj1.peek();
+       obj1.pop();
+       obj1.pop();
+        while (!obj1.isEmpty()) {
+         long value = obj1.pop();
+         System.out.print(value);
+         System.out.print(" ");
+      }
+      System.out.println("");
+     
     }
     
 }
